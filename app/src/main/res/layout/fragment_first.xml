@@ -5,21 +5,20 @@
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.myapplication.FirstFragment">
+        tools:context="com.abhiandroid.fragmentexample.FirstFragment">
 
-        <!-- TODO: Update blank fragment layout -->
+        <!--TextView and Button displayed in First Fragment -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
-            android:text="this is First Fragment"
+            android:text="This is First Fragment"
             android:textColor="@color/black"
-            android:textSize="25sp"
-
-            />
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/firstButton"
@@ -29,7 +28,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@color/green"
-            android:text="Frist Fragment"
+            android:text="First Fragment"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
